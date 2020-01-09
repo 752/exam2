@@ -2,7 +2,10 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">音乐专辑管理</router-link> |
-      <router-link to="/about">爬虫代码</router-link>
+      <router-link to="/crawler">爬虫代码</router-link> |
+      <router-link to="/save">存储代码</router-link> |
+      <router-link to="/test">测试代码</router-link> |
+      <router-link to="/rest">rest测试</router-link>
     </div>
     <router-view/>
   </div>
